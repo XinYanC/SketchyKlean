@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sketchy Klean</title>
+  <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="../css/ghost-blog.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1c4824d51a.js" crossorigin="anonymous"></script>
+</head>
+
+<section class="hero is-fullheight">
+  <div class="hero-head">
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item is-active" href="index.html">
+              Home
+            </a>
+            <a class="navbar-item" href="progress.html">
+              The Sketchy Progess
+            </a>
+            <a class="navbar-item" href="aboutus.html">
+              About Us
+            </a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <a href="cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div id="tit_background" class="hero-body">
+    <div class="container has-text-left tit_container">
+      <h2>
+        Sketchy Klean
+      </h2>
+      <h3 id="comp_name">
+        Klean Productions Co.
+      </h3>
+    </div>
+  </div>
+</section>
+<section class="gap">
+  <hr>
+</section>
+<section id="video_sec">
+  <h2 class="title is-size-2 has-text-weight-medium">This is</h2>
+  <h1 class="skk title has-text-weight-bold">Sketchy Klean</h1>
+  <br>
+  <br>
+  <div id="video" class="card">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VSBmKf2S5qI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</section>
+  
+<section class="gap">
+  <hr>
+</section>
+<section class="blog-posts">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <div class="columns featured-post is-multiline">
+          <div class="column is-12 post">
+            <article class="columns featured">
+              <div class="column is-7 post-img ">
+                <img src="https://cdn.emk.dev/templates/featured-image.png" alt="">
+              </div>
+              <div class="column is-5 featured-content va">
+                <div>
+                  <h3 class="heading post-category">Automatic Shoe Cleaner</h3>
+                  <h1 class="title post-title">Klean-ing Device</h1>
+                  <p class="post-excerpt">Kleans Shoes</p>
+                  <br>
+                  <h3>$100</h3>
+                  <br>
+                  <a href="cart.html" class="button is-primary">
+                    ADD TO CART
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                </div>
+
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="gap">
+  <hr>
+</section>
+<section id="mission">
+  <div class="container">
+    <h4 class="title post-title has-text-center">Our Mission Statement</h4>
+    <p>
+      
+    </p>
+  </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+<script type="text/javascript">
+  // gsap.timeline({
+  //   scrollTrigger: {
+  //     trigger: ".text-section1",
+  //     start: "center bottom",
+  //     end: "80% center",
+  //     markers: true,
+  //   }
+  // })
+  //   .from(".big1", { y: innerHeight * 1 });
+
+  const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".skk",
+        scrub: true,
+        
+        start: "center bottom",
+        end: "bottom center"
+      }
+    })
+
+    .from(".skk", {
+      scale: 0.5, 
+      ease: "none"
+    })
+  
+</script> -->
+  
+</html>

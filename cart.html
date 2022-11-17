@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sketchy Klean</title>
+    <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/ghost-blog.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c4824d51a.js" crossorigin="anonymous"></script>
+  </head>
+
+  <div class="hero-head">
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item is-active" href="index.html">
+              Home
+            </a>
+            <a class="navbar-item" href="progress.html">
+              The Sketchy Progess
+            </a>
+            <a class="navbar-item" href="aboutus.html">
+              About Us
+            </a>
+          </div>
+
+          <div class="navbar-end">
+              <div class="navbar-item">
+                <a href="cart.html">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                </a>
+              </div>
+            </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <section class="ad_title">
+    <h1 class="title is-1">Sketchy Cart Checkout</h1>
+  </section>
+    
+  <section id="format">
+    <section class="adopt">
+      <div class="cart">
+        <hr>
+        <div id="sketchy_klean">
+          <img src="https://lh3.googleusercontent.com/VEj2Nand3KgCPDwZY9ne4zpOgTvlDWeD8bSsJUpb5defjNldEVY3Cx6EFNX84cP9bP3qpdie66OaqNDRnMmLsJUvgBjVGZ39I29PLxX8ZxbtpWWHLUciQuA9hk08ELqveoDOZJh10A=w2400" id="sketchy_klean_img" alt="Sketchy Klean Device">
+          <div id="side">
+            <h2 class="is-size-5	has-text-weight-semibold">Kleany Device</h2>
+            <p class="has-text-success">In Stock</p>
+            <p>Eligible for FREE Shipping</p>
+            <input type="checkbox" name="gift" id="giftselect" value=5>
+            <label for="gift"> This is a gift</label>
+            <div class="select_qty">
+              <div class="select">
+                <select id="qtyselect">
+                  <option value=100>Qty: 1</option>
+                  <option value=200>2</option>
+                  <option value=300>3</option>
+                  <option value=400>4</option>
+                  <option value=500>5</option>
+                  <option value=600>6</option>
+                  <option value=700>7</option>
+                  <option value=800>8</option>
+                  <option value=900>9</option>
+                  <option value=1000>10</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="select_insurance">
+        <p>Sketchy Insurance:</p>
+        <div class="select">
+          <select id="insuranceselect">
+            <option value=0>No</option>
+            <option value=35>Yes</option>
+          </select>
+        </div>
+      </div>
+      <div class="select_delivery">
+        <p>Select delivery options:</p>
+        <div class="select">
+          <select id="delieveryselect">
+            <option value=0>Standard Free Delivery</option>
+            <option value=7>Two-Day Delivery</option>
+            <option value=12>One-day Delivery</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="comment">
+        <p>Any questions, comments, concerns?</p>
+        <textarea class="textarea" placeholder="Comments, questions, concerns."></textarea>
+      </div>
+      <br>
+      <div class="col-75">
+        <div class="back_container">
+          <form action="/action_page.php">
+    
+            <div class="pay_row">
+              <div class="col-50">
+                <h3 class="is-size-4	has-text-weight-semibold">Billing Address</h3>
+                <br>
+                <label for="fname"><i class="fa-solid fa-user"></i> Full Name</label>
+                <br>
+                <input class="user_enter" type="text" id="fname" name="firstname" placeholder="Doe K. Sketch">
+                <br>
+                <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
+                <br>
+                <input class="user_enter" type="text" id="email" name="email" placeholder="sketchy@example.com">
+                <br>
+                <label for="adr"><i class="fa-regular fa-address-card"></i> Address</label>
+                <br>
+                <input class="user_enter" type="text" id="adr" name="address" placeholder="Clark 55th Street">
+                <br>
+                <label for="city"><i class="fa-solid fa-building-columns"></i> City</label>
+                <br>
+                <input class="user_enter" type="text" id="city" name="city" placeholder="New York">
+                <br>
+    
+                <div class="pay_row_split">
+                  <div class="col">
+                    <label for="state">State</label>
+                    <br>
+                    <input class="user_enter_short" type="text" id="state" name="state" placeholder="NY">
+                  </div>
+                  <div class="col">
+                    <label for="zip">Zip</label>
+                    <br>
+                    <input class="user_enter_short" type="text" id="zip" name="zip" placeholder="10001">
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-50">
+                <h3 class="is-size-4	has-text-weight-semibold">Payment</h3>
+                <br>
+                <label class="is-size-5	has-text-weight-medium" for="fname">Accepted Cards</label>
+                <div class="icon-container">
+                  <i class="fa-brands fa-cc-visa" style="color:navy;"></i>
+                  <i class="fa-brands fa-cc-amex" style="color:blue;"></i>
+                  <i class="fa-brands fa-cc-mastercard" style="color:red;"></i>
+                  <i class="fa-brands fa-cc-discover" style="color:orange;"></i>
+                </div>
+                <br>
+                <label for="cname">Name on Card</label>
+                <br>
+                <input class="user_enter" type="text" id="cname" name="cardname" placeholder="Doe Sketch">
+                <br>
+                <label for="ccnum">Credit card number</label>
+                <br>
+                <input class="user_enter" type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <br>
+                <label for="expmonth">Exp Month</label>
+                <br>
+                <input class="user_enter" type="text" id="expmonth" name="expmonth" placeholder="September">
+                <br>
+    
+                <div class="pay_row_split">
+                  <div class="col">
+                    <label for="expyear">Exp Year</label>
+                    <br>
+                    <input class="user_enter_short" type="text" id="expyear" name="expyear" placeholder="2022">
+                  </div>
+                  <div class="col">
+                    <label for="cvv">CVV</label>
+                    <br>
+                    <input class="user_enter_short" type="text" id="cvv" name="cvv" placeholder="352">
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+            </label>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="cart">
+      <h1 id="c">
+        Your Cart:
+        <i class="fa-solid fa-cart-shopping"></i>
+      </h1>
+      <p id="giftselect1"></p>
+      <p id="qtyselect1">Quantity Total Price: $100</p>
+      <p id="insuranceselect1"></p>
+      <p id="delieveryselect1">Delivery selected: $7<br>Free Delivery: - $7</p>
+      <p id="tax">Tax (8.875%): $8.88</p>
+      <hr id="hr_line">
+      <h3 id="t">Total: </h3><h3 id="total">$108.88</h3>
+  
+      <section>
+        <div class="control">
+          <a href="thankyou.html">
+            <button id="pay" class="button is-primary">PAY</button>
+          </a>
+        </div>
+      </section>
+    </section>
+  </section>
+
+</html>
+<script src="script.js"></script>
