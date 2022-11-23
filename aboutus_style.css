@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+#introduction_to_us{
+  padding: 7% 5%;
+}
+#intro_tit{
+  font-size: 50px;
+  font-weight: 500;
+  width: 100%;
+  font-family: 'Abel', sans-serif;
+  padding-bottom: 2%;
+}
+.cardRow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.clusterCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+.clusterCard {
+  width: 350px;
+  border: 1px solid #5c5c5c;
+  min-height: 400px;
+  padding: 3% 2%;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px rgb(186, 186, 186);
+}
+.clusterCard:hover{
+  transform: translateY(-5px);
+  transition: all 0.2s ease 0s;
+  box-shadow: 7px 9px 9px rgb(186, 186, 186);
+}
+.contentCluster h3{
+  line-height: 2.5;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Abel', sans-serif;
+}

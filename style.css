@@ -190,7 +190,6 @@ html, body {
   font-size: 50px;
 }
 
-
 .timeline {
   background: var(--primary-color);
   margin: 20px auto;
@@ -236,4 +235,11 @@ html, body {
 }
 .edge{
   padding: 5%;
+}
+.d-block{
+  height: 350px;
+}
+
+#mission{
+  text-align: center;
 }

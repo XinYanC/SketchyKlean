@@ -83,7 +83,13 @@ let delieverySelect = document.querySelector("#delieveryselect");
 delieverySelect.addEventListener("change", () => {
   console.log("New Selection!");
   let delieverySelect1 = document.querySelector("#delieveryselect1");
-  delieverySelect1.innerHTML = "<p>Delivery selected: $" + delieveryselect.value + "<p>";
+  if (delieveryselect.value == 0){
+    delieverySelect1.innerHTML = "<p>Delivery selected: $7<br>Free Delivery: - $7<p>";
+  }
+  else{
+    delieverySelect1.innerHTML = "<p>Delivery selected: $" + delieveryselect.value + "<p>";
+  }
+    // delieverySelect1.innerHTML = "<p>Delivery selected: $" + delieveryselect.value + "<p>";
   tot += Number(delieveryselect.value);
   console.log(tot);
   taxtot += Number(tot) * 0.08875;
